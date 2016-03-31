@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:weightSum="3">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/modelo"
+            style="@style/cajasformulario"
+            android:id="@+id/etxtModeloj"
+            android:background="@drawable/border"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/etxtColorj"
+            style="@style/cajasformulario"
+            android:background="@drawable/border"
+            android:hint="@string/color"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            style="@style/cajasformulario"
+            android:background="@drawable/border"
+            android:hint="@string/asientos"
+            android:id="@+id/etxtAsientosj"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Cancelar"
+            android:layout_weight="1"
+            android:id="@+id/btnCance" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/aceptar"
+            android:layout_weight="1"
+            android:id="@+id/btmAcep" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

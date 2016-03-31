@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tarea3</string>
+    <string name="tituloPrincipal">Conductores-Coches</string>
+    <string name="btPrincipal1">Gestion Coches</string>
+    <string name="btPrincipal2">Gestion Conductores</string>
+    <string name="title_activity_gestionar_coches">GestionarCoches</string>
+    <string name="ok">OK</string>
+    <string name="clear">Clear</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="asientos">Asientos</string>
+    <string name="nombre">Nombre</string>
+    <string name="dire">Direccion</string>
+    <string name="dni">DNI</string>
+    <string name="email">Email</string>
+    <string name="tel">Telefono</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="salir">Salir</string>
+    <string name="inserOk">Insertado Correctamente</string>
+    <string name="inserMal">No se ha Insertado Correctamente</string>
+    <string name="rellanaBien">Porfavor rellena bien todos los campos</string>
+    <string name="noTieneAso">No tiene ningun elemento asociado</string>
+
+</resources>
